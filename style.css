@@ -1,0 +1,58 @@
+.search-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.btn {
+    border: none;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    border-style: dashed;
+    border-width: 2px;
+    cursor: help;
+}
+.search {
+    padding: 5px;
+}
+
+.logo {
+    height: 600px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.meal-img {
+    height: 200px;
+}
+
+.meals-section {
+display: flex;
+gap: 30px;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.meal-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.meal-name {
+    color:blueviolet;
+    font-size: 20px;
+    font-family: cursive;
+}
