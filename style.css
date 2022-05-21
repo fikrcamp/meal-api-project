@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;800&display=swap');
+* {  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #252831;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* Navbar Style */
+
+.container {
+    width: 100%; 
+    padding: 15px;   
+    background-color: #0D1117;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
+}
+
+.logo h1 a{
+    font-size: 32px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.nav-list ul {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-list li a {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    padding: 10px;
+}
+
+.nav-list li a:hover { 
+    color: #0565F6;
+}
+
+.nav-btn {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-btn h3 {
+    color: #fff;
+}
+
+.nav-btn a {
+    padding: 10px 20px;
+    background-color: #0565F6;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+
+/* Showcase Styling */
+.hero {
+    margin-top: 80px;
+}
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-input {
+    padding: 10px;
+    width: 450px;
+    height: 60px;
+    background-color: transparent;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #fff;
+    outline: none;
+}
+
+.search-input::placeholder {
+    color: #fff;
+}
+
+.input img{
+    position: relative;
+    right: 60px;
+    width: 35px;
+}
+
+ 
+/* Javascript Section styling */
+.hide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.hide div {
+    width: 50%;
+}
+
+
+.meal-image{
+    width: 350px;
+    height: 486px;
+    margin-left: 300px;
+    border-radius: 10px;
+}
+
+.heading {
+    margin-right: 100px;
+    margin-bottom: 60px;
+}
+
+.heading-h1{
+    font-size: 36px;
+    font-weight: 800;
+    color: #fff;
+    margin: 20px 0px;
+}
+
+.heading-h4 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.paragraph-p {
+    width: 600px;
+    margin: 25px 0;
+    color: #f7f7f7;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.unorder-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    width: 600px;
+}
+
+.lists {
+    padding: 2px 5px;
+    color: #fff;
+}
+
+.heading a {
+    padding: 10px 20px;
+    background-color: #0565F6;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+}
